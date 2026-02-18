@@ -18,5 +18,5 @@ if st.button("Check Book"):
     st.warning("Please enter a book title.")
   elif user_input in books:
     st.success("The book exists in the database!")
-               else:
+  else:
     st.error("The book is NOT in the database.")
